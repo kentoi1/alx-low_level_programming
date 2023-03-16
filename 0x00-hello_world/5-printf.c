@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print proper grammar
- * return : this return 0 (succuss)
+ * return : this return 0 (success)
 */
 int main(void)
 {
