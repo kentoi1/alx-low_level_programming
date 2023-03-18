@@ -5,16 +5,24 @@
 */
 int main(void)
 {
-	int i;
 
-	for (i = 48; i < 38; i++)
+	char c = 'a';
+	int num;
+
+	for (num = 0; num < 16; num++)
 	{
-		putchar(i);
+		if (num < 10)
+		{
+			putchar(num + '0');
 	}
-	for (i = 97; i < 101; i++)
+		else
 	{
-		putchar(i);
+		putchar(c);
+		c++;
+	}
+
 	}
 	putchar('\n');
 	return (0);
+
 }
