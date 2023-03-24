@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - print the largest of 3 integers
  * @a: first integer
@@ -7,6 +8,7 @@
  * @c: third integer
  * Return: largest number
 */
+
 int largest_number(int a, int b, int c)
 {
 	int largest;
@@ -27,5 +29,6 @@ int largest_number(int a, int b, int c)
 	{
 		largest = c;
 	}
-	return (largest);
+
+	return (largest)
 }
