@@ -1,16 +1,29 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- *  main -prints the alphabets in lowercase
- *  return: this returns 0 (success)
+ * main - always the entry point
+ * discription: assign random values to variable n
+ * return: 0 (success)
 */
 int main(void)
 {
-char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-int i;
-for (i = 0; i < 26; i++)
-{
-putchar(alp[i]);
-}
-putchar('\n');
-return (0);
-}
+	int n;
+	int ld;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (ld > 5);
+	{
+		printf("%d is greater than 5\n" ld)
+	}
+	else if (ld = 0);
+	{
+	printf("%d is zero\n" ld)
+	}
+	else
+	{
+		printf("%d is less than 6 and not 0\n" ld)
+	}
+	return (0);
+}	
