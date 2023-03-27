@@ -1,12 +1,14 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - always the entry point.
- * description: function that takes a pointer to an int as parameter and updates the value
- * return: always 0 (success)
+ * reset_to_98 - takes the pointer to int as parameter
+ * and updates the value it point to 98
+ *
+ * @n: input
+ *
+ * Return: nothing
 */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
