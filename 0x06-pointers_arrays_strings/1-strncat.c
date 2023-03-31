@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "main.h"
+#include <string.h>
 
 /**
- * _strcat - concancate two stringss
+ * _strncat - concancate two stringss
  * using at most n bytes from src
  * @dest: input value
  * @src: input value
